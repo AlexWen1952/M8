@@ -1,0 +1,35 @@
+/* Add your CSS styles here */
+
+/* Style for the country container */
+.country-container {
+    margin-bottom: 20px;
+}
+
+/* Style for the subdivisions table */
+.subdivisions-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table headers */
+.subdivisions-table th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for table cells */
+.subdivisions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Alternate row background color */
+.subdivisions-table tr:nth-child(even) {
+    background-color: #878080;
+}
+
+/* Hover effect on rows */
+.subdivisions-table tr:hover {
+    background-color: #000000fc;
+}
